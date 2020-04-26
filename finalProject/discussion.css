@@ -1,0 +1,90 @@
+body{ 
+    padding: 10px;
+    background-image:url('media/bg-travel.jpg');
+     background-repeat:no-repeat; 
+     background-size: cover;
+    }
+	
+h1 {
+    text-align:center; font-size:22pt; 
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+     color:rgb(41, 146, 194)
+    }
+ h2 {
+     text-align:left;
+     font-size:18pt; font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; 
+     color:rgb(38, 0, 252)
+    }
+ h3 {
+     text-align:left;
+     font-size:16pt; font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      color:#5eff00cc
+    }
+ h4 {
+     text-align:left; font-size:14pt;
+      font-family :"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; 
+      color:#669999
+    }
+
+ p { 
+     text-align:left;
+     font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-size:12pt; color:black
+    }
+
+ ol {
+     text-align:left;
+     font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; 
+     font-size:12pt; color:black
+    }
+
+ ul {
+     text-align:left; 
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+     font-size:12pt; color:black
+    }
+a:link {
+    color:rgb(0, 119, 255); text-decoration: underline; 
+}
+
+a:active {
+    color:#339933; text-decoration: underline; 
+}
+
+a:visited {
+    color:rgba(0, 238, 32, 0.842); text-decoration: underline;
+ }
+
+a:hover {
+    color: white;
+     background-color: rgb(117, 117, 117); 
+     text-decoration: none; 
+    }
+
+table {
+    text-align:left; 
+    font-family:Calisto MT; 
+    font-size:12pt; 
+    color:black;
+     border:5px ridge maroon; 
+     padding: 15px 15px 15px 15px;}
+
+td {
+    height:40px; 
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+     font-size:12pt; 
+    color:black
+}
+
+#orange:first-line {
+    font-weight:bold; color:rgb(0, 195, 255);
+}
+
+#big:first-letter {
+    font-size:42pt; float:left; 
+}
+
+hr {
+    height:4; color:#eeff00; background-color:rgb(13, 231, 60);
+}
+

@@ -1,0 +1,114 @@
+﻿body{ 
+    background-image:url('media/bg-travel.jpg'); 
+    background-repeat:no-repeat;  
+    background-size:100%;
+}
+	
+h1 {
+    text-align:left; font-size:22pt; 
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; 
+    color:rgb(41, 146, 194)
+}
+
+h2 {
+    text-align:left; font-size:18pt; 
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; 
+    color:rgb(41, 146, 194)
+}
+
+h3 {
+    text-align:left; font-size:16pt; 
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; 
+    color:#339933
+}
+
+h4 {
+    text-align:left; font-size:14pt; 
+    font-family :"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; 
+    color:#669999
+}
+
+p { 
+    text-align:left; 
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; 
+    font-size:12pt; 
+    color:black
+}
+
+ol {
+    text-align:left; 
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; 
+    font-size:12pt; 
+    color:black
+}
+
+ul {
+    text-align:left; 
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; 
+    font-size:12pt; 
+    color:black
+}
+
+a:link {
+    color:rgb(41, 146, 194); 
+    text-decoration: underline; 
+}
+
+a:active {
+    color:#339933; 
+    text-decoration: underline; 
+}
+
+a:visited {
+    color:darkgoldenrod; 
+    text-decoration: underline; 
+}
+
+a:hover {
+    color: white; 
+    background-color: maroon; 
+    text-decoration: none; 
+}
+
+table {
+    text-align:left; 
+    font-family:Calisto MT; 
+    font-size:12pt; color:black; 
+    border:5px ridge maroon;  
+    padding: 15px 15px 15px 15px;
+}
+
+td {
+    height:40px; 
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; 
+    font-size:12pt; 
+    color:black
+}
+
+#orange:first-line {
+    font-weight:bold; 
+    color:darkorange;
+}
+
+#big:first-letter {
+    font-size:42pt; 
+    float:left;
+ }
+
+hr {
+    height:4px; 
+    color:#ff6633; 
+    background-color:darkorange;
+}
+
+.center{ 
+    margin-left:auto;
+    margin-right:auto; 
+}
+
+div{
+    width:60%;
+}
+/* 
+use fungroup;
+INSERT INTO auth_users VALUES ( 1, 'Cole', 'Crain','crain28@mail.nmc.edu', 'crain28', 'spider28'); */

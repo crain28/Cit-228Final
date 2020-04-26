@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Add a Topic</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href="discussion.css" type="text/css" rel="stylesheet" />
+      </head>
+      <header  class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand text-light" href="DiscussionMenu.html">Discussion Forum</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+            <li>
+            <a class="nav-link" href="showtopic.php">Show topics and reply to postings</a>
+          </li>
+          <li>
+            <a class="nav-link" href="addtopic.html">Add Topic</a>
+          </li>
+          
+      </ul>
+      </div>
+      </nav>
+    </header>
+<body>
+<h1>Add a Topic to the Page</h1>
+<form method="post" action="do_addtopic.php">
+        
+<p><label for="topic_owner">Your Email Address:</label><br/>
+<input type="email" id="topic_owner" name="topic_owner" size="40"
+        maxlength="150" required="required" /></p>
+
+<p><label for="topic_title">Topic Title:</label><br/>
+<input type="text" id="topic_title" name="topic_title" size="40"
+        maxlength="150" required="required" /></p>
+
+<p><label for="post_text">Post Text:</label><br/>
+<textarea id="post_text" name="post_text" rows="8"
+          cols="40" ></textarea></p>
+
+<button type="submit" name="submit" value="submit">Add Topic</button>
+<input type="button" name="menu" id="menu" value="Return to Menu" onclick="location.href='DiscussionMenu.html'">
+</form>
+</body>
+</html>

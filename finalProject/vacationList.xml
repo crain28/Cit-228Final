@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vacationList>
+    <fun>
+        <temperature>Cold</temperature>
+        <state>Alaska</state>
+        <duration>1 Month</duration>
+        <request>Jacket</request>
+    </fun>
+    <fun>
+        <temperature>Hot</temperature> 
+        <state>Florida</state>
+        <duration>2 Weeks</duration>
+        <request>Swimming Trucks</request>
+    </fun>
+    <fun>
+        <temperature>Hot</temperature> 
+        <state>Hawaii</state>
+        <duration>1 Week</duration>
+        <request>Surf Board</request>
+    </fun>
+</vacationList>
+

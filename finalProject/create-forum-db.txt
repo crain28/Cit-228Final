@@ -1,0 +1,39 @@
+CREATE DATABASE FunGroup;
+
+USE FunGroup;
+
+CREATE TABLE FunGroup_topics (
+topic_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+topic_title VARCHAR (150),
+topic_create_time DATETIME,
+topic_owner VARCHAR (150)
+);
+
+CREATE TABLE FunGroup_posts (
+post_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+topic_id INT NOT NULL,
+post_text TEXT,
+post_create_time DATETIME,
+post_owner VARCHAR (150)
+);
+
+CREATE TABLE auth_users (
+    id int NOT NULL PRIMARY KEY,
+    f_name VARCHAR(50),
+    l_name VARCHAR(50),
+    email VARCHAR(150),
+    username VARCHAR(25),
+    password VARCHAR(41)
+);
+
+CREATE TABLE Info
+(id int AUTO_INCREMENT Primary Key NOT NULL,
+ temperature varchar(50) not null,
+ state varchar(50) null,
+ duration varchar(50) null,
+ request varchar(50) null);
+
+INSERT INTO products VALUES(1,'Cold','Alaska','1 Month','Jacket');
+INSERT INTO products VALUES(2,'Hot','Florida','2 Weeks','Swimming Trunks');
+INSERT INTO products VALUES(3,'Hot','Hawaii','1 Week','Surf Board');
+
